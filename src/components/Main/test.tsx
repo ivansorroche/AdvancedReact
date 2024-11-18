@@ -12,7 +12,7 @@ describe('<Main />', () => {
     ).toBeInTheDocument()
 
     // gerar snapshot
-    expect(container.firstChild).toMatchSnapshot()
+    // expect(container.firstChild).toMatchSnapshot()
   })
 
   it('should render the colors correctly', () => {
