@@ -12,7 +12,7 @@ const config = {
   docs: {
     autodocs: true
   },
-  webpackFinal: (config) => {
+  webpackFinal: (config: any) => {
     config.resolve.modules.push(`${process.cwd()}/src`)
     return config
   }
